@@ -3,7 +3,7 @@ import courses from "@/data/courses.json";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 
 export async function generateStaticParams() {
