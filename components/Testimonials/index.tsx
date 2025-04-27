@@ -9,7 +9,7 @@ const testimonialData: Testimonial[] = [
     designation: "پدر - کارمند",
     content:
       "هر پدری همیشه بهترین را برای فرزندش میخواهد. من  دوست دارم فرزندم جدا از اینکه مدرک یک دوره آموزشی را میگیرد در آن مهارت حرفه ایی شود و بتونه در جامعه موفق باشه. من از آموزشگاه زعفرانیه بسیار راضی هستم.",
-    image: "/images/testimonials/auth-01.png",
+    image: "/img/team/customer.png",
     star: 5,
   },
   {
@@ -18,7 +18,7 @@ const testimonialData: Testimonial[] = [
     designation: "دانش آموز/ کلاس 6",
     content:
       "من   سه سال است با نرم افزار اسکرچ کار میکنم و بسیار عاشق بازی سازی هستم از موقعی که به کلاس های برنامه نویسی اومدم توانستم خیلی اصولی تر  مسیر خودم را ادامه بدم.ممنون از آموزشگاه زعفرانیه.",
-    image: "/images/testimonials/auth-02.png",
+    image: "/img/team/customer.png",
     star: 5,
   },
   {
@@ -27,7 +27,7 @@ const testimonialData: Testimonial[] = [
     designation: "مدیر عامل / شرکت برنا هستی  نوین ",
     content:
       "همیشه با یادگیری زبان های خارجه مشکل داشتم و خیلی ناامید شورع کردم ولی بعد از گذشت مدتی باور م نمیشه که در حال  یادگیری 2  زبان هستم . آموزش درست هر غیر ممکنی را ممکن میکند.ممنونم از آکادمی زعفرانیه.",
-    image: "/images/testimonials/auth-03.png",
+    image: "/img/team/customer.png",
     star: 5,
   },
 ];
