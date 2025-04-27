@@ -9,6 +9,7 @@ export  type Course = {
   id: string;
   title: string;
   src: string;
+  route: string;
   icon:string;
   discription: string;
   fields:Feilds;

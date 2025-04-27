@@ -48,31 +48,8 @@ const Header = () => {
         }`}
       >
         <div className="container">
-          <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
-              <Link
-                href="/"
-                className={`header-logo block w-full font-bold  ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
-                } `}
-              >
-                آکادمی تخصصی زعفرانیه
-                {/* <Image
-                  src="/images/logo/logo-2.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden"
-                />
-                <Image
-                  src="/images/logo/logo.svg"
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
-                /> */}
-              </Link>
-            </div>
+          <div className="relative -mx-4 flex items-center justify-between ">
+     
             <div className="flex w-full items-center justify-between px-4">
               <div>
                 <button
@@ -160,6 +137,14 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
+              <div className="w-60 max-w-full px-2 xl:mr-12  ">
+              <Link
+                href="/"
+                className={`header-logo block w-full font-bold text-xl text-black-800 py-3 border-b-2 border-blue-800 text-center rounded-lg hover:bg-border-600 hover:text-blue-600 transition duration-300 ease-in-out`}
+              >
+                آکادمی تخصصی زعفرانیه
+              </Link>
+            </div>
                 {/* <Link
                   href="/signin"
                   className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
