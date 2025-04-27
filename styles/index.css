@@ -15,6 +15,10 @@
   font-family: vazir;
 }
 
+#home{
+  /* background: url('/img/ai/mainHero.jpeg') center/cover no-repeat scroll; */
+}
+
 
   @layer base {
     body {

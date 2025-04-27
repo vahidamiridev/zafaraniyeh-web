@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "محمد صالحی",
+    designation: "پدر - کارمند",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "هر پدری همیشه بهترین را برای فرزندش میخواهد. من  دوست دارم فرزندم جدا از اینکه مدرک یک دوره آموزشی را میگیرد در آن مهارت حرفه ایی شود و بتونه در جامعه موفق باشه. من از آموزشگاه زعفرانیه بسیار راضی هستم.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "امیر علی اکبری ",
+    designation: "دانش آموز/ کلاس 6",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "من   سه سال است با نرم افزار اسکرچ کار میکنم و بسیار عاشق بازی سازی هستم از موقعی که به کلاس های برنامه نویسی اومدم توانستم خیلی اصولی تر  مسیر خودم را ادامه بدم.ممنون از آموزشگاه زعفرانیه.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "مهندس مرتضی افشاری ",
+    designation: "مدیر عامل / شرکت برنا هستی  نوین ",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "همیشه با یادگیری زبان های خارجه مشکل داشتم و خیلی ناامید شورع کردم ولی بعد از گذشت مدتی باور م نمیشه که در حال  یادگیری 2  زبان هستم . آموزش درست هر غیر ممکنی را ممکن میکند.ممنونم از آکادمی زعفرانیه.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="مشتریان راضی ما"
+          paragraph="برخی از مشتریان عالی و بررسی آنها"
           center
         />
 

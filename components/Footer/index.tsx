@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="wow fadeInUp dark:bg-gray-dark relative z-10 bg-white pt-16 md:pt-20 lg:pt-24"
+        className="wow fadeInUp relative z-10 bg-white pt-16 dark:bg-gray-dark md:pt-20 lg:pt-24"
         data-wow-delay=".1s"
       >
         <div className="container">
@@ -14,7 +14,8 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                  <Image
+                  آکادمی تخصصی زعفرانیه
+                  {/* <Image
                     src="/images/logo/logo-2.svg"
                     alt="logo"
                     className="w-full dark:hidden"
@@ -27,17 +28,21 @@ const Footer = () => {
                     className="hidden w-full dark:block"
                     width={140}
                     height={30}
-                  />
+                  /> */}
                 </Link>
-                <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  آموزشگاه زعفرانیه یک آموزشگاه تخصصی در رشته های زبان های خارجه
+                  و کامپیوتر- برنامه نویسی و هنرهای تجسمی و رشته های تخصصی
+                  فراوان دیگر میباشد زیر نظر سازمان فنی و حرفه ایی کشور
+                  <br />
+                  <br />
+                  با خیال راحت آموزش ببین و پیشرفت کن.
                 </p>
                 <div className="flex items-center">
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     <svg
                       width="9"
@@ -51,7 +56,7 @@ const Footer = () => {
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     <svg
                       width="19"
@@ -65,7 +70,7 @@ const Footer = () => {
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark mr-6 text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     <svg
                       width="18"
@@ -79,7 +84,7 @@ const Footer = () => {
                   <a
                     href="/"
                     aria-label="social-link"
-                    className="dark:text-body-color-dark text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                    className="text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
                     <svg
                       width="17"
@@ -97,100 +102,115 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  پیوندهای مهم
                 </h2>
-                <ul>
+                <ul >
                   <li>
                     <a
-                      href="/blogs"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      خانه
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/pricing"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      href="/services"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      دوره های آموزشی
                     </a>
                   </li>
                   <li>
                     <a
                       href="/about"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      درباره ما
                     </a>
                   </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
-                </h2>
-                <ul>
-                  <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      TOS
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Refund Policy
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
-              <div className="mb-12 lg:mb-16">
-                <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
-                </h2>
-                <ul>
                   <li>
                     <a
                       href="/contact"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Open Support Ticket
+                      تماس با ما
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Terms of Use
-                    </a>
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/3">
+              <div className="mb-12 lg:mb-16">
+                <h2 className="mb-1 text-xl font-bold text-black dark:text-white">
+                  تماس با
+                </h2>
+                <p className="mb-[1rem] text-[gray]">
+                  بی صبرانه منتظر حضور و تماس شما عزیزان هستیم.
+                </p>
+                <ul className="flex flex-col gap-3">
+                  <li className=" flex items-center justify-start  gap-2">
+                    <div className="h-[2rem] w-[2rem] rounded-full border border-dashed border-blue-500 p-2 hover:border-black hover:bg-blue-500  hover:text-white ">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="size-6 "
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                        />
+                      </svg>
+                    </div>
+                    03145367544
                   </li>
-                  <li>
-                    <a
-                      href="/about"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      About
-                    </a>
+                  <li className=" flex items-center justify-start  gap-2">
+                    <div className="h-[2rem] w-[2rem] rounded-full border border-dashed border-blue-500 p-2 hover:border-black hover:bg-blue-500  hover:text-white ">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="size-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                        />
+                      </svg>
+                    </div>
+                    zafaraniyeh@info.com
+                  </li>
+                  <li className=" flex items-center justify-start  gap-2">
+                    <div className="h-[2rem] w-[2rem] rounded-full border border-dashed border-blue-500 p-2 hover:border-black hover:bg-blue-500  hover:text-white ">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="size-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                        />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                        />
+                      </svg>
+                    </div>
+                    شاهین شهر خیابان مخابرات فرعی 4 غربی پلاک 3
                   </li>
                 </ul>
               </div>
@@ -200,9 +220,9 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and{" "}
+              © طراحی و توسعه توسط :
               <a href="https://nextjstemplates.com" rel="nofollow noopener">
-                Next.js Templates
+                مهندس وحید امیری
               </a>
             </p>
           </div>

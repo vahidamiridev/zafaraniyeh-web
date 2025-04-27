@@ -1,4 +1,5 @@
 import Image from "next/image";
+import OurTeam from '@/components/OurTeam/page'
 import SectionTitle from "../Common/SectionTitle";
 
 const checkIcon = (
@@ -21,11 +22,15 @@ const AboutSectionOne = () => {
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
+
+          <div className="w-full flex flex-col items-center justify-center  gap-2 ">
+
+            <div className=" w-full">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="آکادمی بزرگ زعفرانیه"
+                paragraph="اکادمی زعفرانیه از سال 1397 فعالیت خود را در حوزه آموزش شروع کرد. این آموزشگاه زیر نظر مجموعه سازمان فنی و حرفه ایی کشور می باشد و در شاخه های مختلفی مانند زبان های خارجه از جمله انگلیسی وآلمانی، علوم کامپیوتر و برنامه نویسی ، و هنر های تجسمی در تمامی رشته ها و همچنین نرم افزار های تخصصی از جمله طراحی لباس و نقشه کشی و ... ، شاخه طراحی لباس و طراحی دوخت و رشته های فراوان دیگر فعالیت دارد
+
+خاص خود هستند و نکته مهم ، شناسایی این استعداد ها و شکوفا کردن آنها است و این موضوع نیاز به آموزش دارد.از طرفی آموزش باید به نحوی باشد که فرد با خیال این آکادمی اعتقاد قلبی دارد که همگی افراد صاحب استعداد راحت با آن همراه شود و مطمئن باشد مسیر و دوره آموزشی و اساتید مربوطه همان مسیر درست و مستقیمی است که او را هر چه سریع تر و با آرامش به مقصد مورد نظر می رساند."
                 mb="44px"
               />
 
@@ -35,39 +40,23 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="اساتید مجرب و حرفه" />
+                    <List text="آموزش خلاقانه" />
+                    <List text="رشته های جدید و متنوع" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="همیشه در دسترس" />
+                    <List text="رتبه برتر در آزمون ها و مسابقات" />
+                    <List text="جشنواره و کارگاه های آموزشی" />
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="w-full px-4 lg:w-1/2">
-              <div
-                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
-                data-wow-delay=".2s"
-              >
-                <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="drop-shadow-three mx-auto hidden max-w-full dark:block dark:drop-shadow-none lg:mr-0"
-                />
-              </div>
-            </div>
+            <OurTeam/>
+
+
           </div>
         </div>
       </div>

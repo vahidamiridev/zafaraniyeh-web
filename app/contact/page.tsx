@@ -1,23 +1,18 @@
-import Breadcrumb from "@/components/Common/Breadcrumb";
-import Contact from "@/components/Contact";
+// import Breadcrumb from "@/components/Common/Breadcrumb";
+// import Contact from "@/components/Contact";
+
+import ContactSection from "@/components/Contact/ContactSection";
 
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Contact Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
-  // other metadata
+export const metadata:Metadata = {
+  title: "تماس با ما | آکادمی زعفرانیه",
+  description: "برای مشاوره، ثبت‌نام و دریافت اطلاعات بیشتر درباره دوره‌های آموزشی آکادمی زعفرانیه با ما در تماس باشید.",
 };
-
 const ContactPage = () => {
   return (
     <>
-      <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
-      />
-
-      <Contact />
+        <ContactSection />
     </>
   );
 };
