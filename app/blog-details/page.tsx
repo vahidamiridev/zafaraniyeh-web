@@ -22,7 +22,7 @@ const BlogDetailsPage = () => {
                   10 amazing sites to download stock photos & digital assets for
                   free
                 </h2>
-        
+
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Duis aute irure dolor in reprehenderit in voluptate velit
@@ -31,10 +31,10 @@ const BlogDetailsPage = () => {
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
-                      <Image
+                      <img
                         src="/images/blog/blog-details-02.jpg"
                         alt="image"
-                        fill
+                        
                         className="object-cover object-center"
                       />
                     </div>
@@ -82,7 +82,6 @@ const BlogDetailsPage = () => {
                       Ligula ullamcorper malesuada proin
                     </li>
                   </ul>
-       
                 </div>
               </div>
             </div>

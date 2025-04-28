@@ -1,5 +1,5 @@
 import Image from "next/image";
-import OurTeam from '@/components/OurTeam/page'
+import OurTeam from "@/components/OurTeam/page";
 import SectionTitle from "../Common/SectionTitle";
 
 const checkIcon = (
@@ -22,15 +22,14 @@ const AboutSectionOne = () => {
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-
-          <div className="w-full flex flex-col items-center justify-center  gap-2 ">
-
+          <div className="flex w-full flex-col items-center justify-center  gap-2 ">
             <div className=" w-full">
               <SectionTitle
                 title="آکادمی بزرگ زعفرانیه"
                 paragraph="اکادمی زعفرانیه از سال 1397 فعالیت خود را در حوزه آموزش شروع کرد. این آموزشگاه زیر نظر مجموعه سازمان فنی و حرفه ایی کشور می باشد و در شاخه های مختلفی مانند زبان های خارجه از جمله انگلیسی وآلمانی، علوم کامپیوتر و برنامه نویسی ، و هنر های تجسمی در تمامی رشته ها و همچنین نرم افزار های تخصصی از جمله طراحی لباس و نقشه کشی و ... ، شاخه طراحی لباس و طراحی دوخت و رشته های فراوان دیگر فعالیت دارد
 
-خاص خود هستند و نکته مهم ، شناسایی این استعداد ها و شکوفا کردن آنها است و این موضوع نیاز به آموزش دارد.از طرفی آموزش باید به نحوی باشد که فرد با خیال این آکادمی اعتقاد قلبی دارد که همگی افراد صاحب استعداد راحت با آن همراه شود و مطمئن باشد مسیر و دوره آموزشی و اساتید مربوطه همان مسیر درست و مستقیمی است که او را هر چه سریع تر و با آرامش به مقصد مورد نظر می رساند."
+این آکادمی اعتقاد قلبی دارد که همگی افراد صاحب استعداد خاص خود هستند و نکته مهم ، شناسایی این استعداد ها و شکوفا کردن آنها است و این موضوع نیاز به آموزش دارد.از طرفی آموزش باید به نحوی باشد که فرد با خیال  راحت با آن همراه شود و مطمئن باشد مسیر و دوره آموزشی و اساتید مربوطه همان مسیر درست و مستقیمی است که او را هر چه سریع تر و با آرامش به مقصد مورد نظر می رساند.
+"
                 mb="44px"
               />
 
@@ -40,7 +39,7 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="اساتید مجرب و حرفه" />
+                    <List text="اساتید مجرب و حرفه ایی" />
                     <List text="آموزش خلاقانه" />
                     <List text="رشته های جدید و متنوع" />
                   </div>
@@ -54,9 +53,7 @@ const AboutSectionOne = () => {
               </div>
             </div>
 
-            <OurTeam/>
-
-
+            <OurTeam />
           </div>
         </div>
       </div>

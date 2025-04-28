@@ -15,14 +15,14 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   آکادمی تخصصی زعفرانیه
-                  {/* <Image
+                  {/* <img
                     src="/images/logo/logo-2.svg"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
-                  <Image
+                  <img
                     src="/images/logo/logo.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
@@ -104,38 +104,38 @@ const Footer = () => {
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   پیوندهای مهم
                 </h2>
-                <ul >
+                <ul>
                   <li>
-                    <a
+                    <Link
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       خانه
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/services"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       دوره های آموزشی
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       درباره ما
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       تماس با ما
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -186,7 +186,7 @@ const Footer = () => {
                         />
                       </svg>
                     </div>
-                    zafaraniyeh@info.com
+                    info@zafaraniyehtvto.ir
                   </li>
                   <li className=" flex items-center justify-start  gap-2">
                     <div className="h-[2rem] w-[2rem] rounded-full border border-dashed border-blue-500 p-2 hover:border-black hover:bg-blue-500  hover:text-white ">
@@ -221,9 +221,11 @@ const Footer = () => {
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
               © طراحی و توسعه توسط :
-              <a href="https://nextjstemplates.com" rel="nofollow noopener">
-                مهندس وحید امیری
-              </a>
+      
+                <a target="_blank" className="hover:text-primary transition-all duration-[250ms]"   href="https://www.linkedin.com/in/vahid-amiri-1199b325a/" rel="noopener noreferrer">
+                  مهندس وحید امیری
+                </a>
+          
             </p>
           </div>
         </div>

@@ -15,7 +15,7 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 21,
-        title: "همه خدمات ",
+        title: "همه دورهای ",
         path: routes.SERVICES,
         newTab: false,
       },

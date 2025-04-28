@@ -6,15 +6,14 @@ const SingleServices = ({ course }: { course: Course }) => {
   return (
     <>
       <div
-        className="wow fadeInUp hover:shadow-two dark:hover:shadow-gray-dark group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 dark:bg-dark"
+        className="wow fadeInUp group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark"
         data-wow-delay=".1s"
       >
         <Link
           href={course.route}
           className="relative block aspect-[37/22] w-full"
         >
-  
-          <Image src={course.src} alt="image"   width={1024} height={1024} />
+          <img src={course.src} alt="image" width={1024} height={1024} />
         </Link>
         <div className="p-6 sm:p-8 md:px-6 md:py-8 lg:p-8 xl:px-5 xl:py-8 2xl:p-8">
           <h3>
@@ -29,7 +28,6 @@ const SingleServices = ({ course }: { course: Course }) => {
             {course.title}
           </p>
           <div className="flex items-center">
-   
             <div className="inline-block">
               <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
                 (حضوری و آنلاین)
