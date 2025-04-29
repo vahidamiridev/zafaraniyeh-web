@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-//  output: "export",  // اگر پروژه رو استاتیک می‌خواهید بگیرید، این خط رو فعال کنید
+  //output: "export",  // اگر پروژه رو استاتیک می‌خواهید بگیرید، این خط رو فعال کنید
+  experimental: {
+    appDir: true,
+  },
+  trailingSlash: true,
   reactStrictMode: true,
   images: {
     domains: ["localhost"],  // می‌تونید دامنه‌هایی که اجازه دارید ازش تصاویر رو بگیرید رو اینجا ذکر کنید

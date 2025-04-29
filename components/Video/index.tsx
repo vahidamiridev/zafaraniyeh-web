@@ -1,17 +1,22 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import {  useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
+import SimpleVideo from "../SimpleVideo/page";
 
-import ModalVideo from "react-modal-video";
+
+
 
 const Video = () => {
+
+  
+  
   const [isOpen, setOpen] = useState(false);
 
   return (
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
-      <div className="container">
+      {/* <div className="container">
         <SectionTitle
           title="آکادمی بزرگ زعفرانیه"
           paragraph="در کنار ما با خیال راحت آموزش ببین و پیشرفت کن"
@@ -26,7 +31,7 @@ const Video = () => {
               data-wow-delay=".15s"
             >
               <div className="relative aspect-[77/40] items-center justify-center">
-                <img src="/images/video/video.jpg" alt="video image"  />
+                <Image src="/images/video/video.jpg" alt="video image" width={770} height={400} />
                 <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
                   <button
                     aria-label="video play button"
@@ -47,17 +52,9 @@ const Video = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <ModalVideo
-        channel="youtube"
-        autoplay={true}
-        start={true}
-        isOpen={isOpen}
-        // videoId="L61p2uyiMSo"
-        videoId="#"
-        onClose={() => setOpen(false)}
-      />
+      </div> */}
+      <SimpleVideo/>
+  
 
       <div className="absolute bottom-0 left-0 right-0 z-[-1] h-full w-full bg-[url(/images/video/shape.svg)] bg-cover bg-center bg-no-repeat"></div>
     </section>
